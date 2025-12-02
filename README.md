@@ -83,7 +83,6 @@ Réalisation de scans automatisés (Nmap), attaques brute-force (Hydra) et explo
 Analyse approfondie des logs pour améliorer les règles de détection et la précision des alertes.  
 **Compétences :** Suricata, Docker, Nmap, Hydra, Metasploit, analyse de logs, sécurité réseau.  
 
-
 ---
 
 ### 🔸 2. Déploiement SIEM – Wazuh (manager + agents)
