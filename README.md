@@ -140,8 +140,8 @@ Tests, validation fonctionnelle et documentation de l’architecture supervision
 
 ## Contacts
 
-🔗 **LinkedIn : https://www.linkedin.com/in/juste-fourier-acko-4a659017a/
-📬 **Email :** ackojuste75@gmail.com
+🔗 LinkedIn : https://www.linkedin.com/in/juste-fourier-acko-4a659017a/
+📬 Email :** ackojuste75@gmail.com
 
 ---
 
