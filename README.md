@@ -92,7 +92,6 @@ Intégration avec OpenSearch/Kibana pour la centralisation des logs.
 Création de règles personnalisées, normalisation des événements et alertes sur IOC.  
 Réalisation d’attaques simulées pour valider les détections et la corrélation d’événements.  
 **Compétences :** Wazuh, OpenSearch, Linux, FIM, audit système, threat detection.  
-:contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -109,7 +108,6 @@ Déploiement d’hôtes vulnérables avec Podman (exploits : SQL Injection, Log4
 Intégration Wazuh HIDS pour la détection hôte : FIM, auditd, syscheck, log monitoring.  
 Analyse de vulnérabilités via bases CVE intégrées et recommandations de remédiation.  
 **Compétences :** Podman, Wazuh HIDS, CVE analysis, Linux security.  
-
 
 ---
 
@@ -141,7 +139,7 @@ Tests, validation fonctionnelle et documentation de l’architecture supervision
 
 ---
 
-## 📄 CV & Contacts
+## Contacts
 
 🔗 **LinkedIn : https://www.linkedin.com/in/juste-fourier-acko-4a659017a/
 📬 **Email :** ackojuste75@gmail.com
