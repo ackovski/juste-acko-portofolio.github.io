@@ -16,26 +16,63 @@ Il a été créé dans le cadre de ma recherche d’un **stage de fin d’étude
 
 ---
 
-## 🛡️ Domaines de compétences
+## 🛡️ Compétences
 
-### 🔐 Cybersécurité
-- Audit et durcissement système  
-- SELinux, contrôle d'accès et sécurité Linux  
-- Analyse de trafic, détection d’intrusion  
-- Mise en place de politiques de sécurité  
-
-### 🌐 Réseaux
-- OSPF, routage dynamique, VLAN  
-- Configuration de switches (Juniper EX, Cisco…)  
-- Segmentation réseau et multi-zones  
-- Analyse réseau (Wireshark, Nmap)
-
-### 🖥️ Systèmes
-- Administration Linux & Windows Server  
-- Virtualisation (VMware, VirtualBox, KVM)  
-- Scripting (Bash, Python)
+### Cybersécurité / Cyberdéfense
+Firewalling & filtrage : firewalls, ACL, politiques de filtrage  
+IDS/IPS : détection d’intrusions, règles signatures, gestion des faux positifs  
+Analyse réseau : Wireshark, inspection profonde, analyse de flux et anomalies  
+Sécurisation des communications : VPN/IPSec, TLS  
+Bonnes pratiques Linux & Windows  
+Gestion d’incidents & SOC : niveau 1/2  
+Veille & analyse de menaces : exploitation rapports CERT/ANSSI  
 
 ---
+
+### IAM / Contrôle d’accès
+AAA : Diameter, TACACS+, LDAP, Kerberos  
+Modèles de droits & RBAC  
+Gestion du cycle de vie des identités  
+Certificats & authentification forte  
+Comptes à privilèges (PAM)  
+Concepts SSO, MFA, fédération  
+Gouvernance des accès  
+SELinux (principes, politiques de sécurité, troubleshooting)  
+
+---
+
+### Sécurité des SI
+ISO 27001, EBIOS RM, ANSSI  
+Analyse de vulnérabilités : Nessus, Nmap  
+IPSec, VPN, firewalls, proxies  
+SELinux : contexts, policies, MAC, analyse des AVC  
+Rédaction de rapports sécurité & conformité  
+
+---
+
+### Systèmes & Réseaux
+Linux (Ubuntu), Windows Server  
+VLAN, DHCP, DNS, routage, Wireshark  
+Virtualisation : VMware, VirtualBox  
+Docker, Kubernetes (notions)  
+Ansible : inventaires, rôles, playbooks  
+
+---
+
+### Analyse de données et développement
+Analyse d'habilitations, détection d’anomalies  
+Normalisation & qualité des données  
+Tableaux de bord : Power BI, Tableau, Excel  
+Python, Java, MySQL  
+Scripts d’automatisation  
+
+---
+
+### Soft Skills
+Vulgarisation technique, esprit d’analyse  
+Présentation aux équipes techniques et métiers  
+Gestion du stress & autonomie  
+Coordination interservices, travail en équipe  
 
 ## 🧩 Projets principaux
 
@@ -106,7 +143,6 @@ Tests, validation fonctionnelle et documentation de l’architecture supervision
 
 ## 📄 CV & Contacts
 
-📄 **Télécharger mon CV :
 🔗 **LinkedIn : https://www.linkedin.com/in/juste-fourier-acko-4a659017a/
 📬 **Email :** ackojuste75@gmail.com
 
