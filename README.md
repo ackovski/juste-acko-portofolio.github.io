@@ -155,8 +155,8 @@ N’hésitez pas à me contacter pour toute opportunité ou collaboration.
 ## 🏗️ Technologies utilisées pour ce portfolio
 - GitHub Pages  
 - HTML / CSS / JavaScript  
-- Git / Versionning  
-
+- Git / Versionning
+  
 ---
 
 Merci pour votre visite !
