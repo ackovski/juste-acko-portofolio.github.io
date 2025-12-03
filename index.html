@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio – Juste Fourier ACKO</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="crt"></div>
+
+<header>
+  <h1 class="logo">ACKO<span class="blink">_</span></h1>
+  <nav class="nav">
+    <a href="#home">Accueil</a>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+    <a href="CV_ACKOJUSTE.pdf" target="_blank">CV</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2><span class="tag">root@acko:</span>~# profil</h2>
+  <h3 class="headline">Passionné de cybersécurité · gouvernance · sécurité opérationnelle · détection d’incidents · IAM · administration systèmes & réseaux</h3>
+  <p class="status">Actuellement en recherche de stage en cybersécurité à partir de Janvier 2026 — et je suis mobile</p>
+</section>
+
+<section id="about" class="section">
+  <h2 class="title">À propos</h2>
+  <p class="text">
+    Étudiant en cybersécurité avec un profil polyvalent : gouvernance,
+    gestion des risques (ISO 27001, EBIOS RM), sécurité opérationnelle,
+    administration systèmes & réseaux, IAM, détection d’incidents et analyse technique.
+    Expériences : Orange (réseaux), MSF (analyse data), ANE (gestion IT).
+  </p>
+</section>
+
+<section id="skills" class="section">
+  <h2 class="title">Compétences</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>🔐 Cybersécurité</h3>
+      <ul>
+        <li>ISO 27001 · EBIOS RM</li>
+        <li>Suricata (IDS/IPS)</li>
+        <li>Nessus · Nmap</li>
+        <li>IPSec · TLS · VPN</li>
+        <li>Analyse réseau (Wireshark)</li>
+        <li>SOC Niveau 1 / 2</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🧬 IAM / Contrôle d'accès</h3>
+      <ul>
+        <li>AAA : Diameter, TACACS+, LDAP</li>
+        <li>RBAC · MFA · SSO</li>
+        <li>PKI · Certificats</li>
+        <li>SELinux (policies · AVC)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🖥️ Systèmes & Réseaux</h3>
+      <ul>
+        <li>Linux · Windows Server</li>
+        <li>DHCP · DNS · VLAN · Routage</li>
+        <li>VMware · VirtualBox</li>
+        <li>Docker · Kubernetes</li>
+        <li>Ansible (inventaires, rôles, playbooks)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>📊 Analyse & Dev</h3>
+      <ul>
+        <li>Python · Java · MySQL</li>
+        <li>Power BI · Tableau</li>
+        <li>Scripts d’automatisation</li>
+        <li>Analyse d’habilitations & anomalies</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2 class="title">Projets</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>🛡️ IDS Suricata</h3>
+      <p>• Déploiement Suricata en Docker<br>
+         • Scans Nmap automatisés<br>
+         • Attaques Hydra brute-force<br>
+         • Exploits Metasploit<br>
+         • Analyse profonde des logs & tuning signatures</p>
+    </div>
+
+    <div class="card">
+      <h3>🔎 SIEM Wazuh</h3>
+      <p>• Installation Wazuh Manager & Agents (Windows / Linux)<br>
+         • Intégration OpenSearch / Kibana pour visualisation<br>
+         • Normalisation et enrichissement des événements (décodages & règles)<br>
+         • Mise en place d’alertes sur IOC et playbooks de réponse<br>
+         • Tests d’attaques simulées pour valider les détections</p>
+    </div>
+
+    <div class="card">
+      <h3>🔐 IAM / AAA</h3>
+      <p>• Conception et déploiement : FreeDiameter + LDAP<br>
+         • Implémentation RBAC et modèles d’habilitation<br>
+         • Authentification forte via PKI interne (OpenSSL)<br>
+         • Segmentation dynamique (VLAN) et sécurisation IPSec/TLS<br>
+         • Documentation et analyse des modèles d’habilitation</p>
+    </div>
+
+    <div class="card">
+      <h3>⚙️ Ansible & FortiGate</h3>
+      <p>• Développement de playbooks (FortiOS API & modules Ansible)<br>
+         • Gestion des interfaces (WAN/LAN/DMZ), objets et VIP<br>
+         • Déploiement automatisé de politiques firewall<br>
+         • Mise en place d’audits automatisés et reports de conformité</p>
+    </div>
+
+    <div class="card">
+      <h3>📘 GLPI ITSM</h3>
+      <p>• Installation et configuration complète de GLPI<br>
+         • Base de données et optimisation serveur<br>
+         • Configuration entités, profils, droits et workflows<br>
+         • Intégration plugins (inventory, dashboard), SLA/OLA et automatisations</p>
+    </div>
+
+    <div class="card">
+      <h3>📡 GLPI + Zabbix</h3>
+      <p>• Installation serveur Zabbix et agents<br>
+         • Association GLPI–Zabbix pour remontée automatique des alertes<br>
+         • Création de templates et optimisation des métriques<br>
+         • Workflows de création de tickets depuis alertes Zabbix</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2 class="title">Contact</h2>
+  <p>Email : <strong>ackojuste75@gmail.com</strong></p>
+  <p>Téléphone : <strong>07 45 30 04 13</strong></p>
+  <p>Localisation : Brest, France</p>
+  <p>LinkedIn : <a href="https://www.linkedin.com/in/juste-fourier-acko-4a659017a/" target="_blank">https://www.linkedin.com/in/juste-fourier-acko-4a659017a/</a></p>
+</section>
+
+<footer>© 2025 – ACKO</footer>
+
+</body>
+</html>
